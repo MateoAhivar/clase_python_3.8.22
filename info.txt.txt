@@ -1,0 +1,4 @@
+comandos GIT
+configuración inicial
+git config --global user.name "Nombre usuario"
+git config --global user.email "dirección_mail@dominio.com"

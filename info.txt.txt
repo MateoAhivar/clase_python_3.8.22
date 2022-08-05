@@ -2,3 +2,10 @@ comandos GIT
 configuración inicial
 git config --global user.name "Nombre usuario"
 git config --global user.email "dirección_mail@dominio.com"
+---------------------------------------------------------
+git init (inicializar git (en un nuevo directorio de trabajo))
+git status (veo el estado de los archivos)
+git add nombre archivo/ git add -A / git add . (agrega todo el staging area)
+git commit (i para insertar un comentario, Esc para salir, :wq graba y sale) /}
+git commit -m "Descripción del commit"(otra forma)
+git log (historia de commits) --oneline (abreviado)

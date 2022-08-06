@@ -8,4 +8,18 @@ git status (veo el estado de los archivos)
 git add nombre archivo/ git add -A / git add . (agrega todo el staging area)
 git commit (i para insertar un comentario, Esc para salir, :wq graba y sale) /}
 git commit -m "Descripción del commit"(otra forma)
-git log (historia de commits) --oneline (abreviado)
+git log (historia de commits) --oneline (abreviado) -- graph (Gráfica de ramas)
+
+RAMAS
+git branch <nombre_rama> (crear la rama, pero sin posicionarse en la misma)
+git checkout <nombre_rama> (me posiciono en la rama)
+** git chekout -b <nombre_rama>(hace los 2 pasos anteriores)
+git branch (indica la rama activa)
+(Para fucionar ramas)
+Me posiciono en la rama master
+git merge <nombre_rama> (Hago la unión)
+git branch -d <nombre_rama> (Elimino la rama, si no la utilizo más)
+
+COLABORAR EN UN PROYECTO
+(Hacer FORK desde Github)
+git clone <URL>
